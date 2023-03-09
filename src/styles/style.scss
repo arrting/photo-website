@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.morePicture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.25rem;
+    button {
+        font-size: 2rem;
+        padding: 0.25rem 0.5rem;
+        background-color: rgb(80, 1, 80);
+        color: white;
+        cursor: pointer;
+    }
+}
+
+
+@import "./nav";
+@import "./search";
+@import "./footer";
+@import "./picture"
